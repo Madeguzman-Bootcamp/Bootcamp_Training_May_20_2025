@@ -1,0 +1,86 @@
+<mvc:View controllerName="githubintegration.controller.MainView" height="100%" xmlns:mvc="sap.ui.core.mvc" displayBlock="true" xmlns="sap.m" xmlns:f="sap.ui.layout.form" xmlns:core="sap.ui.core">
+	<Page id="page" title="{i18n>title}" floatingFooter="true">
+        <content>
+            <VBox id="idVBox" class="sapUiSmallMargin">
+                <f:SimpleForm id="idSimpleForm" editable="true" layout="ResponsiveGridLayout" title="Details"
+                    labelSpanXL="3" labelSpanL="3" labelSpanM="3" labelSpanS="12" adjustLabelSpan="false"
+                    emptySpanXL="4" emptySpanL="4" emptySpanM="4" emptySpanS="0" columnsXL="1" columnsL="1" columnsM="1"
+                    singleContainerFullSize="false">
+                    <f:content>
+                        <Label id="idLblFName" text="{i18n>firstNameLbl}" />
+                        <Input id="idInptFName" value="" placeholder="Enter your first name." required="true"/>
+                        <Label id="idLblLName" text="{i18n>lastNameLbl}" />
+                        <Input id="idInptLName" value="" placeholder="Enter your last name." required="true"/>
+                        <Label id="idLblMOP" text="{i18n>mopLbl}" />
+                        <Select id="idSelectMop" enabled="{/Enabled}"	editable="{/Editable}" forceSelection="false"
+                             items="{
+							path: '/TypeOfPayment',
+							sorter: { path: 'NameType' }
+						}" selectedKey="{/TypeOfPayment/TypeAbre}" change="onChangeMOP">
+                            <core:Item key="{TypeAbre}" text="{NameType}" />
+                        </Select>
+
+                        <Label id="idLblPhone" text="{i18n>mobileNumberLbl}" visible="false" />
+                        <Input id="idInputPhone" value="" visible="false" placeholder="Enter your 12 digits number." maxLength="12"/>
+                        <Label id="idLblCreditCard" text="{i18n>creditCardNumber}" visible="false" />
+                        <Input id="idInputCreditCard" value="" visible="false"   type="Number" placeholder="Enter your 12-16 digits credit card number."/>
+                        <Input id="idInputCreditExpiryDate" value="" visible="false" placeholder="Enter expiry data."/>
+                        <Input value="" id="idInputCreditCCV" placeholder="Enter CVV." type="Number" visible="false">
+                        <layoutData>
+                            <f:ColumnElementData cellsSmall="3" cellsLarge="3" />
+                        </layoutData>
+                    </Input>
+
+                    </f:content>
+                </f:SimpleForm>
+                <Table id="idTableSCart" inset="false">
+                    <headerToolbar>
+                        <OverflowToolbar id="idOFT">
+                            <content>
+                                <Title id="idTableTitleSCart" text="Shopping Cart" />
+                                <ToolbarSpacer id="idTSpacer" />
+                                <Button id="idBtnAddItems" icon="sap-icon://cart-4" tooltip="Add to Cart"
+                                    press="onAddItem" />
+                            </content>
+                        </OverflowToolbar>
+                    </headerToolbar>
+                    <columns>
+                        <Column id="idCol1">
+                            <Text id="idColText1" text="{i18n>ProductName}" />
+                        </Column>
+                        <Column id="idCol2">
+                            <Text id="idColText2" text="{i18n>Quantity}" />
+                        </Column>
+                        <Column id="idCol3">
+                            <Text id="idColText3" text="{i18n>Price}" />
+                        </Column>
+                    </columns>
+                    <items>
+                        <ColumnListItem id="idColListItem1" vAlign="Middle">
+                            <cells>
+                                <Text id="idText1" text="{i18n>mobileType}" />
+                                <Text id="idText2" text="{i18n>mobileQty}" />
+                                <Text id="idText3" text="{i18n>mobilePrice}" />
+                            </cells>
+                        </ColumnListItem>
+                        <ColumnListItem id="idColListItem2" vAlign="Middle">
+                            <cells>
+                                <Text id="idText4" text="{i18n>bagType}" />
+                                <Text id="idText5" text="{i18n>bagQty}" />
+                                <Text id="idText6" text="{i18n>bagPrice}" />
+                            </cells>
+                        </ColumnListItem>
+                    </items>
+                </Table>
+
+            </VBox>
+        </content>
+        <footer>
+            <OverflowToolbar id="idOFTFooter">
+                <ToolbarSpacer id="idTSpacerFooter" />
+                <Button id="idBtnCheckout" text="Check Out" tooltip="Check Out" press="onPressCheckout" />
+            </OverflowToolbar>
+        </footer>
+
+    </Page>
+</mvc:View>

@@ -1,0 +1,464 @@
+{
+    "aEmployeeData": [
+        {
+            "FirstName": "John",
+            "LastName": "Doe",
+            "EmployeeID": "EMP001",
+            "Age": 30,
+            "DateHire": "2022-01-01",
+            "CareerLevel": "2",
+            "CurrentProject": "Project A"
+        },
+        {
+            "FirstName": "Jane",
+            "LastName": "Smith",
+            "EmployeeID": "EMP002",
+            "Age": 28,
+            "DateHire": "2023-03-15",
+            "CareerLevel": "1",
+            "CurrentProject": "Project B"
+        },
+        {
+            "FirstName": "David",
+            "LastName": "Johnson",
+            "EmployeeID": "EMP003",
+            "Age": 35,
+            "DateHire": "2021-07-10",
+            "CareerLevel": "3",
+            "CurrentProject": "Project C"
+        },
+        {
+            "FirstName": "Emily",
+            "LastName": "Davis",
+            "EmployeeID": "EMP004",
+            "Age": 25,
+            "DateHire": "2024-02-20",
+            "CareerLevel": "1",
+            "CurrentProject": "Project A"
+        },
+        {
+            "FirstName": "Michael",
+            "LastName": "Brown",
+            "EmployeeID": "EMP005",
+            "Age": 32,
+            "DateHire": "2022-11-05",
+            "CareerLevel": "2",
+            "CurrentProject": "Project D"
+        },
+        {
+            "FirstName": "Jessica",
+            "LastName": "Wilson",
+            "EmployeeID": "EMP006",
+            "Age": 29,
+            "DateHire": "2023-09-12",
+            "CareerLevel": "2",
+            "CurrentProject": "Project B"
+        },
+        {
+            "FirstName": "William",
+            "LastName": "Martinez",
+            "EmployeeID": "EMP007",
+            "Age": 31,
+            "DateHire": "2020-12-03",
+            "CareerLevel": "3",
+            "CurrentProject": "Project C"
+        },
+        {
+            "FirstName": "Sophia",
+            "LastName": "Taylor",
+            "EmployeeID": "EMP008",
+            "Age": 27,
+            "DateHire": "2022-06-18",
+            "CareerLevel": "1",
+            "CurrentProject": "Project A"
+        },
+        {
+            "FirstName": "Alexander",
+            "LastName": "Thomas",
+            "EmployeeID": "EMP009",
+            "Age": 33,
+            "DateHire": "2021-04-25",
+            "CareerLevel": "2",
+            "CurrentProject": "Project D"
+        },
+        {
+            "FirstName": "Olivia",
+            "LastName": "Anderson",
+            "EmployeeID": "EMP010",
+            "Age": 26,
+            "DateHire": "2023-08-14",
+            "CareerLevel": "2",
+            "CurrentProject": "Project B"
+        },
+        {
+            "FirstName": "Daniel",
+            "LastName": "Jackson",
+            "EmployeeID": "EMP011",
+            "Age": 34,
+            "DateHire": "2020-10-30",
+            "CareerLevel": "3",
+            "CurrentProject": "Project C"
+        },
+        {
+            "FirstName": "Ava",
+            "LastName": "White",
+            "EmployeeID": "EMP012",
+            "Age": 28,
+            "DateHire": "2024-01-09",
+            "CareerLevel": "1",
+            "CurrentProject": "Project A"
+        },
+        {
+            "FirstName": "James",
+            "LastName": "Harris",
+            "EmployeeID": "EMP013",
+            "Age": 30,
+            "DateHire": "2022-05-07",
+            "CareerLevel": "2",
+            "CurrentProject": "Project D"
+        },
+        {
+            "FirstName": "Isabella",
+            "LastName": "Clark",
+            "EmployeeID": "EMP014",
+            "Age": 29,
+            "DateHire": "2021-03-22",
+            "CareerLevel": "2",
+            "CurrentProject": "Project B"
+        },
+        {
+            "FirstName": "Liam",
+            "LastName": "Lewis",
+            "EmployeeID": "EMP015",
+            "Age": 32,
+            "DateHire": "2023-11-28",
+            "CareerLevel": "3",
+            "CurrentProject": "Project C"
+        }
+    ],
+    "aProjectList": [
+        {
+            "ProjectId": "PRJ001",
+            "ProjectName": "Project A"
+        },
+        {
+            "ProjectId": "PRJ002",
+            "ProjectName": "Project B"
+        },
+        {
+            "ProjectId": "PRJ003",
+            "ProjectName": "Project C"
+        },
+        {
+            "ProjectId": "PRJ004",
+            "ProjectName": "Project D"
+        },
+        {
+            "ProjectId": "PRJ005",
+            "ProjectName": "Project E"
+        },
+        {
+            "ProjectId": "PRJ006",
+            "ProjectName": "Project F"
+        },
+        {
+            "ProjectId": "PRJ007",
+            "ProjectName": "Project G"
+        },
+        {
+            "ProjectId": "PRJ008",
+            "ProjectName": "Project H"
+        },
+        {
+            "ProjectId": "PRJ009",
+            "ProjectName": "Project I"
+        },
+        {
+            "ProjectId": "PRJ010",
+            "ProjectName": "Project J"
+        },
+        {
+            "ProjectId": "PRJ011",
+            "ProjectName": "Project K"
+        },
+        {
+            "ProjectId": "PRJ012",
+            "ProjectName": "Project L"
+        },
+        {
+            "ProjectId": "PRJ013",
+            "ProjectName": "Project M"
+        },
+        {
+            "ProjectId": "PRJ014",
+            "ProjectName": "Project N"
+        },
+        {
+            "ProjectId": "PRJ015",
+            "ProjectName": "Project O"
+        }
+    ],
+    "aSkillData": [
+        {
+            "EmployeeId": "EMP001",
+            "SkillId": "SKL001",
+            "Proficiency": "2"
+        },
+        {
+            "EmployeeId": "EMP002",
+            "SkillId": "SKL002",
+            "Proficiency": "1"
+        },
+        {
+            "EmployeeId": "EMP003",
+            "SkillId": "SKL003",
+            "Proficiency": "3"
+        },
+        {
+            "EmployeeId": "EMP004",
+            "SkillId": "SKL004",
+            "Proficiency": "1"
+        },
+        {
+            "EmployeeId": "EMP005",
+            "SkillId": "SKL005",
+            "Proficiency": "2"
+        },
+        {
+            "EmployeeId": "EMP006",
+            "SkillId": "SKL006",
+            "Proficiency": "2"
+        },
+        {
+            "EmployeeId": "EMP007",
+            "SkillId": "SKL007",
+            "Proficiency": "3"
+        },
+        {
+            "EmployeeId": "EMP008",
+            "SkillId": "SKL008",
+            "Proficiency": "1"
+        },
+        {
+            "EmployeeId": "EMP009",
+            "SkillId": "SKL009",
+            "Proficiency": "2"
+        },
+        {
+            "EmployeeId": "EMP010",
+            "SkillId": "SKL010",
+            "Proficiency": "2"
+        },
+        {
+            "EmployeeId": "EMP011",
+            "SkillId": "SKL011",
+            "Proficiency": "3"
+        },
+        {
+            "EmployeeId": "EMP012",
+            "SkillId": "SKL012",
+            "Proficiency": "1"
+        },
+        {
+            "EmployeeId": "EMP013",
+            "SkillId": "SKL013",
+            "Proficiency": "2"
+        },
+        {
+            "EmployeeId": "EMP014",
+            "SkillId": "SKL014",
+            "Proficiency": "2"
+        },
+        {
+            "EmployeeId": "EMP015",
+            "SkillId": "SKL015",
+            "Proficiency": "3"
+        }
+    ],
+    "aProficiencyListData": [
+        {
+            "ProficiencyId": "PRF001",
+            "ProficiencyLevel": "1"
+        },
+        {
+            "ProficiencyId": "PRF002",
+            "ProficiencyLevel": "2"
+        },
+        {
+            "ProficiencyId": "PRF003",
+            "ProficiencyLevel": "3"
+        },
+        {
+            "ProficiencyId": "PRF004",
+            "ProficiencyLevel": "4"
+        },
+        {
+            "ProficiencyId": "PRF005",
+            "ProficiencyLevel": "5"
+        },
+        {
+            "ProficiencyId": "PRF006",
+            "ProficiencyLevel": "6"
+        },
+        {
+            "ProficiencyId": "PRF007",
+            "ProficiencyLevel": "7"
+        },
+        {
+            "ProficiencyId": "PRF008",
+            "ProficiencyLevel": "8"
+        },
+        {
+            "ProficiencyId": "PRF009",
+            "ProficiencyLevel": "9"
+        },
+        {
+            "ProficiencyId": "PRF010",
+            "ProficiencyLevel": "10"
+        },
+        {
+            "ProficiencyId": "PRF011",
+            "ProficiencyLevel": "11"
+        },
+        {
+            "ProficiencyId": "PRF012",
+            "ProficiencyLevel": "12"
+        },
+        {
+            "ProficiencyId": "PRF013",
+            "ProficiencyLevel": "13"
+        },
+        {
+            "ProficiencyId": "PRF014",
+            "ProficiencyLevel": "14"
+        },
+        {
+            "ProficiencyId": "PRF015",
+            "ProficiencyLevel": "15"
+        }
+    ],
+    "aSkillListData": [
+        {
+            "SkillId": "SKL001",
+            "SkillName": "JavaScript"
+        },
+        {
+            "SkillId": "SKL002",
+            "SkillName": "SAPUI5"
+        },
+        {
+            "SkillId": "SKL003",
+            "SkillName": "HTML"
+        },
+        {
+            "SkillId": "SKL004",
+            "SkillName": "CSS"
+        },
+        {
+            "SkillId": "SKL005",
+            "SkillName": "Java"
+        },
+        {
+            "SkillId": "SKL006",
+            "SkillName": "Python"
+        },
+        {
+            "SkillId": "SKL007",
+            "SkillName": "C#"
+        },
+        {
+            "SkillId": "SKL008",
+            "SkillName": "Angular"
+        },
+        {
+            "SkillId": "SKL009",
+            "SkillName": "React"
+        },
+        {
+            "SkillId": "SKL010",
+            "SkillName": "Node.js"
+        },
+        {
+            "SkillId": "SKL011",
+            "SkillName": "SQL"
+        },
+        {
+            "SkillId": "SKL012",
+            "SkillName": "Spring Boot"
+        },
+        {
+            "SkillId": "SKL013",
+            "SkillName": "jQuery"
+        },
+        {
+            "SkillId": "SKL014",
+            "SkillName": "Bootstrap"
+        },
+        {
+            "SkillId": "SKL015",
+            "SkillName": "TypeScript"
+        }
+    ],
+    "aCareerListData": [
+        {
+            "CareerId": "CAR001",
+            "CareerLevel": "1"
+        },
+        {
+            "CareerId": "CAR002",
+            "CareerLevel": "2"
+        },
+        {
+            "CareerId": "CAR003",
+            "CareerLevel": "3"
+        },
+        {
+            "CareerId": "CAR004",
+            "CareerLevel": "4"
+        },
+        {
+            "CareerId": "CAR005",
+            "CareerLevel": "5"
+        },
+        {
+            "CareerId": "CAR006",
+            "CareerLevel": "6"
+        },
+        {
+            "CareerId": "CAR007",
+            "CareerLevel": "7"
+        },
+        {
+            "CareerId": "CAR008",
+            "CareerLevel": "8"
+        },
+        {
+            "CareerId": "CAR009",
+            "CareerLevel": "9"
+        },
+        {
+            "CareerId": "CAR010",
+            "CareerLevel": "10"
+        },
+        {
+            "CareerId": "CAR011",
+            "CareerLevel": "11"
+        },
+        {
+            "CareerId": "CAR012",
+            "CareerLevel": "12"
+        },
+        {
+            "CareerId": "CAR013",
+            "CareerLevel": "13"
+        },
+        {
+            "CareerId": "CAR014",
+            "CareerLevel": "14"
+        },
+        {
+            "CareerId": "CAR015",
+            "CareerLevel": "15"
+        }
+    ]
+}
